@@ -18,9 +18,11 @@ export default function RootLayout({children}: Props) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Provider>
-          {children}
-        </Provider>
+        <div>
+          <Provider>
+            {children}
+          </Provider>
+        </div>
       </body>
     </html>
   )
