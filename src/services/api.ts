@@ -1,5 +1,3 @@
-'https://api-deslocamento.herokuapp.com/'
-
 import axios from 'axios'
 
 export const api = axios.create({
