@@ -1,3 +1,5 @@
+import colors from "tailwindcss/colors"
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,6 +9,7 @@ module.exports = {
   ],
   theme: {
     colors: {
+      ...colors,
       primary: "#EEEEEE",
       secondary: "#00ADB5",
       tertiary: "#393E46",
